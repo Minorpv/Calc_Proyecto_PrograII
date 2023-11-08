@@ -1,0 +1,49 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header {
+    padding: 1.5em;
+    background-color: aquamarine;
+    text-align:center;
+}
+body {
+    background-color: antiquewhite;
+}
+body div {
+    display: flex;
+    flex-flow: row wrap;
+    width: 24%;
+    float: left;
+    height:50px;
+    text-align:center
+}
+.contenedor {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.boton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 40px;
+    margin: -20px 0 0 -50px;
+}
+footer {
+    padding:1.5em;
+    background-color: aquamarine;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+}
+
+
+
